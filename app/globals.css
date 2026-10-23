@@ -27,7 +27,7 @@
 
 html {
   color-scheme: dark;
-  scroll-behavior: smooth;
+  /* ponytail: use data-scroll-behavior attr for Next.js 16 compliance */
 }
 
 body {

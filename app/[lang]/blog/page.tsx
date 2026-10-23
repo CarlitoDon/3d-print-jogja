@@ -1,7 +1,6 @@
 import type { Locale } from "@/proxy";
 
 // Render at request time (dynamic params: lang)
-export const instant = false;
 
 export default async function BlogPage({
   params,

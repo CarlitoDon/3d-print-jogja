@@ -19,7 +19,7 @@ export async function Navbar({ lang }: { lang: Locale }) {
               alt="KreaForma Logo Mark"
               fill
               sizes="32px"
-              className="object-cover"
+              className="object-cover object-center"
               priority
             />
           </div>

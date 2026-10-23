@@ -7,6 +7,7 @@ import type { Locale } from "@/proxy";
 import type { Metadata } from "next";
 import { getDict } from "@/lib/i18n";
 
+
 export async function generateMetadata({
   params,
 }: PageProps<"/[lang]">): Promise<Metadata> {

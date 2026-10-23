@@ -34,6 +34,7 @@ export function TechShowcase({ lang }: TechShowcaseProps) {
                 alt="FDM 3D Printing Nozzle Extruding PLA filament"
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
+                priority
                 className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
               />
               <div className="absolute top-4 left-4 px-3 py-1 rounded-full bg-surface/85 backdrop-blur-md border border-border text-xs font-mono text-brand font-semibold shadow-lg">
@@ -135,6 +136,7 @@ export function TechShowcase({ lang }: TechShowcaseProps) {
               alt="Workshop Semi-Gudang Cetak 3D KreaForma di Yogyakarta"
               fill
               sizes="(max-width: 1024px) 100vw, 50vw"
+              priority
               className="object-cover object-center"
             />
             <div className="absolute bottom-3 left-3 px-3 py-1 rounded bg-surface/85 backdrop-blur-md border border-border text-[10px] font-mono text-brand">

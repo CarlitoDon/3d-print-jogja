@@ -82,7 +82,7 @@ export async function Hero({ lang }: { lang: Locale }) {
               <div className="absolute bottom-6 left-6 right-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 p-5 rounded-xl bg-surface/85 backdrop-blur-md border border-border text-left">
                 <div className="flex items-center gap-3">
                   <div className="relative w-7 h-7 rounded overflow-hidden border border-brand/40 flex-shrink-0">
-                    <Image src="/brand/kreaforma-mark.jpg" alt="KreaForma" fill className="object-cover" />
+                    <Image src="/brand/kreaforma-mark.jpg" alt="KreaForma" fill sizes="28px" className="object-cover object-center" />
                   </div>
                   <div>
                     <span className="text-[11px] font-mono text-brand uppercase tracking-wider block font-semibold">

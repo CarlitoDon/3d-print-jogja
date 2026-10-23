@@ -123,6 +123,7 @@ export default function RootLayout({
     <html
       lang="id"
       className={`dark ${hanken.variable} ${jetbrains.variable}`}
+      data-scroll-behavior="smooth"
       suppressHydrationWarning
     >
       <head>
