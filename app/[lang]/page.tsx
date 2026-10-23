@@ -1,4 +1,5 @@
 import { Hero } from "@/components/sections/Hero";
+import { TechShowcase } from "@/components/sections/TechShowcase";
 import { Process } from "@/components/sections/Process";
 import { CalculatorTeaser } from "@/components/sections/CalculatorTeaser";
 import { MaterialsGrid } from "@/components/sections/MaterialsGrid";
@@ -23,6 +24,7 @@ export default async function HomePage({ params }: PageProps<"/[lang]">) {
   return (
     <>
       <Hero lang={lang as Locale} />
+      <TechShowcase lang={lang as Locale} />
       <Process lang={lang as Locale} />
       <CalculatorTeaser lang={lang as Locale} />
       <MaterialsGrid lang={lang as Locale} />
