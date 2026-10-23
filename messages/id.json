@@ -1,0 +1,62 @@
+{
+  "nav": {
+    "calculator": "Kalkulator",
+    "services": "Layanan",
+    "allServices": "Semua layanan",
+    "industries": "Industri",
+    "howItWorks": "Cara Kerja",
+    "about": "Tentang",
+    "blog": "Blog",
+    "faq": "FAQ",
+    "contact": "Kontak",
+    "order": "Pesan via WhatsApp",
+    "quote": "Cek File Anda"
+  },
+  "hero": {
+    "badge": "Jogja — kirim ke seluruh Indonesia",
+    "headlineLead": "Rumah",
+    "headlineAccent": "Manufaktur",
+    "headlineTrail": "Aditif",
+    "subtitle": "Cetak 3D FDM & resin SLA. Penawaran cepat, diantar ke depan pintu Anda.",
+    "cta": "Cek File & Dapatkan Penawaran",
+    "ctaWa": "Pesan via WhatsApp",
+    "scroll": "Gulir"
+  },
+  "process": {
+    "title": "Proses Sederhana",
+    "subtitle": "dari awal hingga akhir",
+    "step1Title": "Pilih Layanan Anda",
+    "step1Desc": "Cetak 3D FDM atau resin SLA. Belum punya file? Kami bantu dari awal.",
+    "step2Title": "Tarik, Lepas, Lihat Estimasi",
+    "step2Desc": "Upload file STL/OBJ/3MF ke kalkulator — estimasi berat langsung keluar.",
+    "step3Title": "Kami Kerjakan & Kirim",
+    "step3Desc": "Konfirmasi via WhatsApp. Kami cetak lalu kirim ke seluruh Indonesia."
+  },
+  "calculator": {
+    "title": "Kalkulator Penawaran",
+    "subtitle": "Pratinjau model Anda. Dapatkan penawarannya.",
+    "uploadPrompt": "Klik atau seret model 3D",
+    "formats": "STL · OBJ · 3MF · STP · STEP · Maks 100 MB",
+    "noFile": "Belum punya file? Anda tetap bisa memesan — kami bantu.",
+    "process": "Proses",
+    "material": "Material",
+    "infill": "Infill %",
+    "support": "Support",
+    "supportNone": "Tidak ada",
+    "supportLittle": "Sedikit",
+    "supportMany": "Banyak",
+    "weight": "Berat (gram)",
+    "weightHelp": "Masukkan berat dari slicer Anda untuk penawaran akurat.",
+    "orderWa": "Pesan via WhatsApp"
+  },
+  "footer": {
+    "tagline": "Rumah Manufaktur Aditif.",
+    "blurb": "Jasa cetak 3D FDM dan resin SLA. Berbasis di Yogyakarta, mengirim ke seluruh Indonesia.",
+    "rights": "Hak cipta dilindungi.",
+    "findUs": "Temukan kami di"
+  },
+  "meta": {
+    "title": "3D Print Jogja — Jasa Cetak 3D FDM & Resin SLA Yogyakarta",
+    "description": "Jasa cetak 3D FDM dan resin SLA di Yogyakarta. Estimasi harga instan, pengiriman ke seluruh Indonesia."
+  }
+}
