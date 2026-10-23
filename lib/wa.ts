@@ -7,4 +7,4 @@ export function waLink(text?: string) {
 }
 
 export const WA_DEFAULT_MESSAGE =
-  "Halo 3D Print Jogja! 👋\n\nSaya mau tanya jasa cetak 3D.\n• Yang mau dicetak: \n• Material: (kalau belum tahu, mohon dibantu rekomendasinya)\n• Jumlah: \n\nMohon dibantu estimasi harganya ya. Terima kasih!";
+  "Halo KreaForma | 3D Printing Jogja! 👋\n\nSaya mau konsultasi jasa cetak 3D.\n• Yang mau dicetak: \n• Material: (kalau belum tahu, mohon dibantu rekomendasinya)\n• Jumlah: \n\nMohon dibantu estimasi harganya ya. Terima kasih!";

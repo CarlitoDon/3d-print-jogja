@@ -85,9 +85,9 @@ export function CalculatorForm({ lang }: { lang: "id" | "en" }) {
 
   // WhatsApp Message
   const waMessage = [
-    "Halo 3D Print Jogja! 👋",
+    "Halo KreaForma | 3D Printing Jogja! 👋",
     "",
-    "Saya ingin konsultasi & order cetak 3D via Kalkulator Website:",
+    "Saya ingin konsultasi & order cetak 3D via Kalkulator KreaForma:",
     fileName ? `• File: ${fileName}` : "• File: (akan dikirim via WhatsApp)",
     `• Proses: ${selectedType === "fdm" ? "FDM (Filament)" : "SLA (Resin)"}`,
     `• Material: ${activeMaterial.name}`,

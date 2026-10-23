@@ -1,5 +1,7 @@
 {
   "nav": {
+    "brand": "KreaForma",
+    "subBrand": "3D Printing Jogja",
     "calculator": "Calculator",
     "services": "Services",
     "allServices": "All services",
@@ -13,50 +15,50 @@
     "quote": "Check Your File"
   },
   "hero": {
-    "badge": "Jogja — shipping across Indonesia",
-    "headlineLead": "Home of",
-    "headlineAccent": "Additive",
-    "headlineTrail": "Manufacturing",
-    "subtitle": "FDM & SLA resin 3D printing. Fast quote, delivered to your door.",
-    "cta": "Check File & Get a Quote",
-    "ctaWa": "Order via WhatsApp",
-    "scroll": "Scroll"
+    "badge": "KreaForma · Precision Additive Manufacturing Yogyakarta",
+    "headlineLead": "Shaping",
+    "headlineAccent": "Form & Precision",
+    "headlineTrail": "Without Limits",
+    "subtitle": "Industrial FDM & SLA Resin 3D printing in Yogyakarta. From rapid prototyping to engineering-grade functional batch production.",
+    "cta": "Instant Price Calculator",
+    "ctaWa": "WhatsApp Consultation",
+    "scroll": "Scroll down"
   },
   "process": {
-    "title": "Simple Process",
-    "subtitle": "from start to finish",
-    "step1Title": "Choose Your Service",
-    "step1Desc": "FDM or SLA resin 3D printing. No file yet? We'll help you from scratch.",
-    "step2Title": "Drag, Drop, See Estimate",
-    "step2Desc": "Upload your STL/OBJ/3MF to the calculator — weight estimate comes from geometry.",
-    "step3Title": "We Print & Ship",
-    "step3Desc": "Confirm via WhatsApp. We print then ship anywhere in Indonesia."
+    "title": "Precision Production Flow",
+    "subtitle": "From Digital Concept to Tangible Reality",
+    "step1Title": "Consultation & Method Selection",
+    "step1Desc": "FDM for impact toughness or SLA Resin for micron details. No 3D file yet? We assist from sketches.",
+    "step2Title": "Geometry Analysis & Instant Quote",
+    "step2Desc": "Upload your STL/STEP file to KreaForma calculator — automatic volume, weight, and pricing estimate.",
+    "step3Title": "Calibrated Print & Reliable Delivery",
+    "step3Desc": "Manufactured in KreaForma enclosed print farm with strict quality control, delivered across Indonesia."
   },
   "calculator": {
-    "title": "Quote Calculator",
-    "subtitle": "Preview your model. Get a quote.",
-    "uploadPrompt": "Click or drag a 3D model",
-    "formats": "STL · OBJ · 3MF · STP · STEP · Max 100 MB",
-    "noFile": "No file? You can still order — we'll help.",
-    "process": "Process",
-    "material": "Material",
-    "infill": "Infill %",
-    "support": "Support",
-    "supportNone": "None",
-    "supportLittle": "Some",
-    "supportMany": "Lots",
+    "title": "KreaForma Quotation Calculator",
+    "subtitle": "Preview your model. Receive an instant transparent quote.",
+    "uploadPrompt": "Click or drag your 3D model (STL, OBJ, 3MF, STEP)",
+    "formats": "Up to 100 MB · Secure processing",
+    "noFile": "No file? We help with CAD modeling from scratch.",
+    "process": "Print Process",
+    "material": "Engineering Material",
+    "infill": "Infill Density %",
+    "support": "Support Complexity",
+    "supportNone": "No Support (Flat)",
+    "supportLittle": "Light Support (+15%)",
+    "supportMany": "Heavy Support (+35%)",
     "weight": "Weight (grams)",
-    "weightHelp": "Enter slicer weight for an accurate quote.",
-    "orderWa": "Order via WhatsApp"
+    "weightHelp": "Enter slicer weight for guaranteed quotation accuracy.",
+    "orderWa": "Send Quote to WhatsApp"
   },
   "footer": {
-    "tagline": "Home of Additive Manufacturing.",
-    "blurb": "FDM and SLA resin 3D printing. Based in Yogyakarta, shipping across Indonesia.",
+    "tagline": "KreaForma — Precision Additive Manufacturing Studio Yogyakarta.",
+    "blurb": "Industrial grade FDM and SLA resin 3D printing service. Serving makers, architects, automotive builders, universities, and enterprise across Indonesia.",
     "rights": "All rights reserved.",
-    "findUs": "Find us on"
+    "findUs": "Find KreaForma on"
   },
   "meta": {
-    "title": "3D Print Jogja — FDM & SLA 3D Printing Service Yogyakarta",
-    "description": "FDM and SLA resin 3D printing service in Yogyakarta. Instant price estimate, shipping across Indonesia."
+    "title": "KreaForma | 3D Printing Jogja — Precision FDM & SLA 3D Printing",
+    "description": "KreaForma is the leading FDM and SLA resin 3D printing service in Yogyakarta. Instant online calculator, 20+ engineering materials, shipping across Indonesia."
   }
 }

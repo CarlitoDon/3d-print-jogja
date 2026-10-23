@@ -1,5 +1,7 @@
 {
   "nav": {
+    "brand": "KreaForma",
+    "subBrand": "3D Printing Jogja",
     "calculator": "Kalkulator",
     "services": "Layanan",
     "allServices": "Semua layanan",
@@ -13,50 +15,50 @@
     "quote": "Cek File Anda"
   },
   "hero": {
-    "badge": "Jogja — kirim ke seluruh Indonesia",
-    "headlineLead": "Rumah",
-    "headlineAccent": "Manufaktur",
-    "headlineTrail": "Aditif",
-    "subtitle": "Cetak 3D FDM & resin SLA. Penawaran cepat, diantar ke depan pintu Anda.",
-    "cta": "Cek File & Dapatkan Penawaran",
-    "ctaWa": "Pesan via WhatsApp",
-    "scroll": "Gulir"
+    "badge": "KreaForma · Manufaktur Aditif Presisi Yogyakarta",
+    "headlineLead": "Mewujudkan",
+    "headlineAccent": "Bentuk & Presisi",
+    "headlineTrail": "Tanpa Batas",
+    "subtitle": "Layanan cetak 3D FDM & Resin SLA industri di Yogyakarta. Dari purwarupa cepat hingga produksi massal fungsional berstandar rekayasa.",
+    "cta": "Kalkulator Estimasi Instan",
+    "ctaWa": "Konsultasi WhatsApp",
+    "scroll": "Gulir ke bawah"
   },
   "process": {
-    "title": "Proses Sederhana",
-    "subtitle": "dari awal hingga akhir",
-    "step1Title": "Pilih Layanan Anda",
-    "step1Desc": "Cetak 3D FDM atau resin SLA. Belum punya file? Kami bantu dari awal.",
-    "step2Title": "Tarik, Lepas, Lihat Estimasi",
-    "step2Desc": "Upload file STL/OBJ/3MF ke kalkulator — estimasi berat langsung keluar.",
-    "step3Title": "Kami Kerjakan & Kirim",
-    "step3Desc": "Konfirmasi via WhatsApp. Kami cetak lalu kirim ke seluruh Indonesia."
+    "title": "Alur Produksi Presisi",
+    "subtitle": "Dari Konsep Digital Menuju Benda Nyata",
+    "step1Title": "Konsultasi & Pemilihan Metode",
+    "step1Desc": "FDM untuk ketahanan benturan atau Resin SLA untuk detail mikron. Belum punya file 3D? Kami bantu dari sketsa tangan.",
+    "step2Title": "Analisis Geometri & Estimasi Instan",
+    "step2Desc": "Upload file STL/STEP ke kalkulator KreaForma — estimasi volume, berat, dan biaya keluar otomatis.",
+    "step3Title": "Cetak Terkalibrasi & Kirim",
+    "step3Desc": "Diproduksi di farm enclosed KreaForma dengan quality control ketat, siap diantar ke seluruh Indonesia."
   },
   "calculator": {
-    "title": "Kalkulator Penawaran",
-    "subtitle": "Pratinjau model Anda. Dapatkan penawarannya.",
-    "uploadPrompt": "Klik atau seret model 3D",
-    "formats": "STL · OBJ · 3MF · STP · STEP · Maks 100 MB",
-    "noFile": "Belum punya file? Anda tetap bisa memesan — kami bantu.",
-    "process": "Proses",
-    "material": "Material",
-    "infill": "Infill %",
-    "support": "Support",
-    "supportNone": "Tidak ada",
-    "supportLittle": "Sedikit",
-    "supportMany": "Banyak",
+    "title": "Kalkulator Penawaran KreaForma",
+    "subtitle": "Pratinjau model Anda. Dapatkan penawaran seketika.",
+    "uploadPrompt": "Klik atau seret model 3D (STL, OBJ, 3MF, STEP)",
+    "formats": "Maksimal 100 MB · Enkripsi aman",
+    "noFile": "Belum punya file? Kami bantu modeling CAD dari nol.",
+    "process": "Metode Cetak",
+    "material": "Material Rekayasa",
+    "infill": "Kepadatan Infill %",
+    "support": "Dukungan Support",
+    "supportNone": "Tanpa Support (Datar)",
+    "supportLittle": "Sedikit Support (+15%)",
+    "supportMany": "Banyak Support (+35%)",
     "weight": "Berat (gram)",
     "weightHelp": "Masukkan berat dari slicer Anda untuk penawaran akurat.",
-    "orderWa": "Pesan via WhatsApp"
+    "orderWa": "Kirim Penawaran ke WhatsApp"
   },
   "footer": {
-    "tagline": "Rumah Manufaktur Aditif.",
-    "blurb": "Jasa cetak 3D FDM dan resin SLA. Berbasis di Yogyakarta, mengirim ke seluruh Indonesia.",
+    "tagline": "KreaForma — Studio Manufaktur Aditif Presisi Yogyakarta.",
+    "blurb": "Jasa cetak 3D FDM dan resin SLA berstandar industri. Melayani makers, arsitek, bengkel modifikasi, kampus, dan korporasi di seluruh Indonesia.",
     "rights": "Hak cipta dilindungi.",
-    "findUs": "Temukan kami di"
+    "findUs": "Temukan KreaForma di"
   },
   "meta": {
-    "title": "3D Print Jogja — Jasa Cetak 3D FDM & Resin SLA Yogyakarta",
-    "description": "Jasa cetak 3D FDM dan resin SLA di Yogyakarta. Estimasi harga instan, pengiriman ke seluruh Indonesia."
+    "title": "KreaForma | 3D Printing Jogja — Jasa Cetak 3D FDM & Resin SLA Presisi",
+    "description": "KreaForma adalah studio cetak 3D FDM dan Resin SLA terdepan di Yogyakarta. Estimasi harga online instan, 20+ material teknis, pengiriman kilat se-Indonesia."
   }
 }

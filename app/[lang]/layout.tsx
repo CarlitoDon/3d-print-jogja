@@ -21,15 +21,20 @@ const jetbrains = JetBrains_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://3dprintjogja.com"),
   title: {
-    default: "3D Print Jogja — Jasa Cetak 3D FDM & Resin SLA Yogyakarta",
-    template: "%s | 3D Print Jogja",
+    default: "KreaForma | 3D Printing Jogja — Jasa Cetak 3D FDM & Resin SLA Presisi",
+    template: "%s | KreaForma 3D Printing Jogja",
   },
   description:
-    "Jasa cetak 3D FDM & Resin SLA presisi tinggi di Yogyakarta. Kalkulator estimasi biaya instan, pilihan 20+ material teknis, dan pengiriman aman ke seluruh Indonesia.",
+    "KreaForma adalah studio manufaktur aditif & cetak 3D FDM dan Resin SLA presisi tinggi di Yogyakarta. Kalkulator estimasi biaya instan, 20+ material teknis, dan pengiriman kilat se-Indonesia.",
+  icons: {
+    icon: "/brand/kreaforma-mark.jpg",
+    apple: "/brand/kreaforma-mark.jpg",
+  },
   keywords: [
-    "3D printing Jogja",
-    "Jasa cetak 3D Yogyakarta",
-    "3D print FDM",
+    "KreaForma",
+    "3D Printing Jogja",
+    "Jasa Cetak 3D Yogyakarta",
+    "FDM 3D Print",
     "Resin SLA Jogja",
     "PLA+",
     "PETG",
@@ -37,33 +42,34 @@ export const metadata: Metadata = {
     "PA-CF carbon fiber",
     "Kalkulator cetak 3D",
     "Maket arsitektur 3D",
-    "Enclosure IoT 3D print",
+    "Custom enclosure IoT",
+    "Rapid prototyping Jogja",
   ],
-  authors: [{ name: "3D Print Jogja Team" }],
-  creator: "3D Print Jogja",
+  authors: [{ name: "KreaForma Engineering Studio" }],
+  creator: "KreaForma",
   openGraph: {
     type: "website",
     locale: "id_ID",
     url: "https://3dprintjogja.com",
-    siteName: "3D Print Jogja",
-    title: "3D Print Jogja — Jasa Cetak 3D FDM & Resin SLA Yogyakarta",
+    siteName: "KreaForma | 3D Printing Jogja",
+    title: "KreaForma | 3D Printing Jogja — Jasa Cetak 3D FDM & Resin SLA Presisi",
     description:
-      "Jasa cetak 3D FDM & Resin SLA presisi tinggi di Yogyakarta. Estimasi harga instan, siap kirim se-Indonesia.",
+      "Studio cetak 3D FDM & Resin SLA presisi industri di Yogyakarta. Kalkulator penawaran instan, siap kirim se-Indonesia.",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "/brand/kreaforma-showcase.jpg",
         width: 1024,
         height: 1024,
-        alt: "3D Print Jogja Additive Manufacturing Studio",
+        alt: "KreaForma 3D Printing Jogja Studio Showcase",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "3D Print Jogja — Jasa Cetak 3D FDM & Resin SLA",
+    title: "KreaForma | 3D Printing Jogja",
     description:
-      "Jasa cetak 3D FDM & Resin SLA presisi tinggi di Yogyakarta dengan kalkulator estimasi instan.",
-    images: ["/og-image.jpg"],
+      "Jasa cetak 3D FDM & Resin SLA presisi industri di Yogyakarta dengan kalkulator estimasi instan.",
+    images: ["/brand/kreaforma-showcase.jpg"],
   },
   robots: {
     index: true,
@@ -88,9 +94,10 @@ export default async function LangLayout({
       {
         "@type": "LocalBusiness",
         "@id": "https://3dprintjogja.com/#business",
-        name: "3D Print Jogja",
+        name: "KreaForma | 3D Printing Jogja",
         url: "https://3dprintjogja.com",
-        image: "https://3dprintjogja.com/og-image.jpg",
+        logo: "https://3dprintjogja.com/brand/kreaforma-mark.jpg",
+        image: "https://3dprintjogja.com/brand/kreaforma-showcase.jpg",
         telephone: "+6285xxxxxxxxx",
         address: {
           "@type": "PostalAddress",
@@ -132,7 +139,7 @@ export default async function LangLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       </head>
-      <body className="bg-surface font-sans text-ink antialiased min-h-screen flex flex-col">
+      <body className="bg-surface font-sans text-ink antialiased min-h-screen flex flex-col selection:bg-brand selection:text-black">
         <Navbar lang={lang as Locale} />
         <main className="flex-1">{children}</main>
         <Footer lang={lang as Locale} />
