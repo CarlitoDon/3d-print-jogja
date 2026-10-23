@@ -13,13 +13,13 @@ export function TechShowcase({ lang }: TechShowcaseProps) {
       <FadeIn direction="up">
         <div className="mb-16">
           <p className="font-mono text-xs text-brand uppercase tracking-wider mb-2">
-            Teknologi & Farm Produksi KreaForma
+            Teknologi & Fasilitas Produksi
           </p>
           <h2 className="text-3xl md:text-5xl font-bold tracking-tight mb-4">
-            Dua teknologi cetak untuk setiap level kompleksitas.
+            Dua teknologi cetak untuk setiap kebutuhan Anda.
           </h2>
           <p className="text-ink-muted text-base max-w-2xl leading-relaxed">
-            Dari part rekayasa tahan benturan hingga figurin detail mikron, diproduksi langsung di workshop enclosed farm Yogyakarta.
+            Dari part fungsional tahan benturan hingga figurin detail mikron, dikerjakan langsung di workshop studio Yogyakarta.
           </p>
         </div>
       </FadeIn>
@@ -126,30 +126,30 @@ export function TechShowcase({ lang }: TechShowcaseProps) {
         </FadeIn>
       </div>
 
-      {/* KreaForma Workshop & Farm Showcase Banner */}
+      {/* Realistic Semi-Gudang Workshop Banner */}
       <FadeIn direction="up" delay={0.3}>
         <div className="rounded-2xl border border-border bg-surface-raised overflow-hidden p-8 md:p-12 flex flex-col lg:flex-row items-center gap-10 hover:border-brand/40 transition-colors">
           <div className="relative w-full lg:w-1/2 aspect-video rounded-xl overflow-hidden border border-border shadow-xl">
             <Image
               src="/brand/kreaforma-farm.jpg"
-              alt="KreaForma 3D Printing Farm Workshop Yogyakarta"
+              alt="Studio Workshop Cetak 3D KreaForma Yogyakarta"
               fill
               sizes="(max-width: 1024px) 100vw, 50vw"
               className="object-cover object-center"
             />
-            <div className="absolute bottom-3 left-3 px-3 py-1 rounded bg-surface/80 backdrop-blur-md border border-border text-[10px] font-mono text-brand">
-              KreaForma Lab · Yogyakarta
+            <div className="absolute bottom-3 left-3 px-3 py-1 rounded bg-surface/85 backdrop-blur-md border border-border text-[10px] font-mono text-brand">
+              Studio Workshop · Yogyakarta
             </div>
           </div>
           <div className="w-full lg:w-1/2 flex flex-col gap-4">
             <span className="text-xs font-mono text-brand uppercase tracking-wider font-semibold">
-              Kapasitas & Fasilitas Farm
+              Fasilitas Workshop Mandiri
             </span>
             <h3 className="text-2xl md:text-3xl font-bold tracking-tight">
-              Farm printer industri beroperasi 24/7 di Yogyakarta.
+              Workshop cetak 3D mandiri siap produksi di Yogyakarta.
             </h3>
             <p className="text-sm text-ink-muted leading-relaxed">
-              Unit Bambu Lab X1C Enclosed, Voron High-Speed, dan Elegoo Saturn 14K kami dikelola dengan monitoring real-time, dehumidifier chamber &lt;15% RH, dan kalibrasi rutin untuk memastikan part Anda presisi dari batch pertama hingga ke-1000.
+              Berbasis workshop semi-gudang di Jogja, armada printer enclosed Bambu Lab & Voron kami beroperasi setiap hari dengan filament dry box tertutup, kalibrasi rutin, dan pengemasan rapi siap kirim langsung ke lokasi Anda.
             </p>
             <div className="flex flex-wrap gap-2 pt-2">
               {["PLA+ High Speed", "PETG Weatherproof", "TPU 95A Elastic", "ABS / ASA Heat", "PA-CF Carbon", "14K Tough Resin"].map((tag) => (

@@ -4,8 +4,8 @@ import { waLink } from "@/lib/wa";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Tentang Kami — 3D Print Jogja",
-  description: "Studio manufaktur aditif & 3D printing farm berbasis di Yogyakarta. Menghadirkan teknologi cetak 3D industri untuk makers, insinyur, dan pelaku bisnis.",
+  title: "Tentang KreaForma — 3D Printing Jogja",
+  description: "Studio cetak 3D mandiri & workshop produksi berbasis di Yogyakarta. Menghadirkan teknologi FDM dan Resin SLA presisi untuk makers, insinyur, arsitek, dan pelaku bisnis.",
 };
 
 export default async function AboutPage({
@@ -18,13 +18,13 @@ export default async function AboutPage({
       {/* Hero Header */}
       <div>
         <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full border border-border bg-surface-raised text-xs font-mono text-brand mb-4">
-          Tentang Studio
+          Tentang KreaForma
         </div>
         <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6 max-w-4xl">
-          Mendekatkan manufaktur presisi tinggi ke ekosistem kreatif & teknologi Yogyakarta.
+          Menghadirkan manufaktur presisi dari workshop nyata di Yogyakarta.
         </h1>
         <p className="text-lg text-ink-muted max-w-3xl leading-relaxed">
-          3D Print Jogja berakar dari kebutuhan nyata para perancang produk, mahasiswa teknik, pegiat otomotif, dan seniman miniatur di Jogja yang membutuhkan purwarupa fisik cepat tanpa minimum order pabrik.
+          KreaForma berawal dari garasi studio mandiri di Jogja untuk menjawab kebutuhan perancang produk, insinyur, arsitek, dan makers yang membutuhkan purwarupa fisik cepat tanpa minimum order pabrik.
         </p>
       </div>
 
@@ -32,17 +32,17 @@ export default async function AboutPage({
       <div className="relative aspect-[16/9] w-full rounded-2xl overflow-hidden border border-border bg-surface-raised shadow-2xl">
         <Image
           src="/about/studio.jpg"
-          alt="Studio Workshop 3D Print Jogja Farm"
+          alt="Studio Workshop Semi Gudang 3D Printing KreaForma di Yogyakarta"
           fill
           className="object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-surface/90 via-transparent to-transparent" />
-        <div className="absolute bottom-6 left-6 right-6 p-4 rounded-xl bg-surface/80 backdrop-blur-md border border-border text-left">
+        <div className="absolute bottom-6 left-6 right-6 p-4 rounded-xl bg-surface/85 backdrop-blur-md border border-border text-left">
           <span className="text-xs font-mono text-brand font-semibold block mb-1">
-            Workstation & Print Farm di Yogyakarta
+            Workshop & Farm KreaForma di Yogyakarta
           </span>
           <p className="text-xs text-ink-muted font-mono">
-            Bambu Lab X1C / P1S Enclosed Units · Voron High-Speed · Elegoo Saturn 14K SLA Resin
+            Setup semi-gudang mandiri · Bambu Lab Enclosed Units · Filament Dry Storage & Inspection Bench
           </p>
         </div>
       </div>
@@ -51,25 +51,25 @@ export default async function AboutPage({
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         <div className="p-8 rounded-2xl border border-border bg-surface-raised flex flex-col gap-4">
           <span className="text-3xl">📐</span>
-          <h2 className="text-xl font-bold">Akurasi Dimensi Terjamin</h2>
+          <h2 className="text-xl font-bold">Akurasi & Fitting Nyata</h2>
           <p className="text-sm text-ink-muted leading-relaxed">
-            Setiap printer dikalibrasi secara rutin (pressure advance, input shaping, vibration compensation) untuk memastikan lubang baut, ulir, dan clearance perakitan pas sesuai gambar teknik.
+            Setiap part diuji dengan digital caliper langsung di meja perakitan kami untuk memastikan toleransi lubang baut, ulir, dan clearance komponen presisi sesuai gambar teknik Anda.
           </p>
         </div>
 
         <div className="p-8 rounded-2xl border border-border bg-surface-raised flex flex-col gap-4">
-          <span className="text-3xl">🔬</span>
-          <h2 className="text-xl font-bold">Material Grade Industri</h2>
+          <span className="text-3xl">📦</span>
+          <h2 className="text-xl font-bold">Penyimpanan Terjaga</h2>
           <p className="text-sm text-ink-muted leading-relaxed">
-            Tidak hanya sekadar PLA standar. Kami menyediakan filamen rekayasa: PA-CF (serat karbon tahan panas), ASA anti-UV cuaca luar ruangan, TPU fleksibel tahan abrasi, dan resin tangguh.
+            Semua filamen disimpan dalam dry box tertutup kedap udara dengan silica gel aktif untuk mencegah kelembapan tropis, menjamin part Anda bebas gelembung dan tidak rapuh.
           </p>
         </div>
 
         <div className="p-8 rounded-2xl border border-border bg-surface-raised flex flex-col gap-4">
           <span className="text-3xl">⚡</span>
-          <h2 className="text-xl font-bold">Respon & Pengiriman Cepat</h2>
+          <h2 className="text-xl font-bold">Lokal, Cepat, Fleksibel</h2>
           <p className="text-sm text-ink-muted leading-relaxed">
-            Estimasi harga langsung keluar. Farm printer kami siap beroperasi 24/7 untuk mengejar deadline tender, pameran, prototipe investor, atau tugas akhir mendesak.
+            Tanpa birokrasi berbelit. Pesanan bisa diambil langsung di lokasi Jogja, dikirim GoSend/Grab instan hari yang sama, atau dikemas aman dengan bubble tebal ke luar kota.
           </p>
         </div>
       </div>
@@ -80,17 +80,17 @@ export default async function AboutPage({
           <span className="text-xs font-mono text-brand uppercase tracking-wider block mb-2">
             Lokasi & Kunjungan
           </span>
-          <h2 className="text-3xl font-bold mb-4">Kunjungi Studio Kami</h2>
+          <h2 className="text-3xl font-bold mb-4">Kunjungi Workshop Kami</h2>
           <p className="text-sm text-ink-muted leading-relaxed mb-6">
-            Ingin melihat sampel hasil cetak berbagai material, mengecek tekstur permukaan langsung, atau membawa benda fisik untuk diukur? Hubungi kami via WhatsApp untuk membuat janji temu.
+            Ingin melihat sampel cetak berbagai filamen, memegang langsung material TPU fleksibel atau serat karbon PA-CF, atau membawa benda fisik untuk diukur? Silakan hubungi kami via WhatsApp untuk membuat janji temu.
           </p>
           <div className="flex flex-col gap-2 text-xs font-mono text-ink-muted mb-6">
             <div>📍 Yogyakarta, D.I. Yogyakarta 55281</div>
             <div>⏰ Senin – Sabtu: 09.00 – 17.00 WIB</div>
-            <div>📦 Pengiriman setiap hari kerja ke seluruh Indonesia</div>
+            <div>📦 Pengiriman setiap hari kerja (JNE, SiCepat, J&T, Paxel, Grab/Gojek)</div>
           </div>
           <a
-            href={waLink("Halo, saya ingin reservasi janji temu kunjungan ke studio 3D Print Jogja.")}
+            href={waLink("Halo KreaForma, saya ingin reservasi janji temu kunjungan ke workshop.")}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex px-6 py-3 rounded-full bg-brand text-black font-semibold text-xs font-mono hover:bg-brand-dim transition-colors"
@@ -100,16 +100,16 @@ export default async function AboutPage({
         </div>
 
         <div className="border border-border rounded-xl p-8 bg-surface flex flex-col gap-4 text-center items-center justify-center min-h-64">
-          <span className="text-4xl">🏛️</span>
-          <h3 className="font-bold text-lg">Yogyakarta Hub</h3>
+          <span className="text-4xl">🛠️</span>
+          <h3 className="font-bold text-lg">Workshop Studio Jogja</h3>
           <p className="text-xs text-ink-muted font-mono max-w-xs">
-            Melayani pick-up langsung di lokasi, pengiriman Grab/Gojek Instant se-DIY, dan ekspedisi kilat reguler ke Jawa, Bali, Sumatra, Kalimantan, Sulawesi, hingga Papua.
+            Melayani pick-up langsung di lokasi, pengiriman instan se-DIY, dan ekspedisi kilat reguler ke seluruh kota di Indonesia.
           </p>
           <Link
             href={`/${lang}/calculator`}
-            className="text-xs font-mono text-brand hover:underline mt-2"
+            className="text-xs font-mono text-brand hover:underline mt-2 font-semibold"
           >
-            Hitung Estimasi Sekarang →
+            Coba Kalkulator Biaya Online →
           </Link>
         </div>
       </div>
