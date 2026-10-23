@@ -131,8 +131,8 @@ export function TechShowcase({ lang }: TechShowcaseProps) {
         <div className="rounded-2xl border border-border bg-surface-raised overflow-hidden p-8 md:p-12 flex flex-col lg:flex-row items-center gap-10 hover:border-brand/40 transition-colors">
           <div className="relative w-full lg:w-1/2 aspect-video rounded-xl overflow-hidden border border-border shadow-xl">
             <Image
-              src="/brand/kreaforma-farm.jpg"
-              alt="Studio Workshop Cetak 3D KreaForma Yogyakarta"
+              src="/brand/kreaforma-workshop.jpg"
+              alt="Workshop Semi-Gudang Cetak 3D KreaForma di Yogyakarta"
               fill
               sizes="(max-width: 1024px) 100vw, 50vw"
               className="object-cover object-center"
